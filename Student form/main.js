@@ -11,5 +11,12 @@ myForm.addEventListener('submit', function(event) {
     const registration = registrationInput.value;
     const dateOfBirth = dateOfBirthInput.value;
     const age = ageInput.value;
-}
-);
+    if (nameInput.value === "" || registrationInput.value === "" || dateOfBirthInput.value === "" || ageInput.value === "") {
+        messageArea.textContent = "Please fill in all fields.";
+        messageArea.style.color = "red";
+    } else {
+        messageArea.textContent = `Form submitted! Name: ${name}, Registration: ${registration}, Date of Birth: ${dateOfBirth}, Age: ${age}`;
+        messageArea.style.color = "green";
+        console.log("Form data:", { name: name, registration: registration, dateOfBirth: dateOfBirth, age: age });}
+});
+const messageArea = document.getElementById('message');
