@@ -1,0 +1,132 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #fafbfc;
+}
+header {
+    background-color: #95e1fa;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: #000a02;
+    padding: 10px;
+    font-family: 'Times New Roman', serif;
+    font-size: 50px;
+}
+nav {
+    background-color: #020202;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fbfbfd;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.products h2 {
+    padding: 0px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+}
+.products p {
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+}
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+.product-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.products-grid img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    
+}
+.product-card {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: block;
+}
+.products-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.search-bar input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#errorMsg {
+    color: red;
+}
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}

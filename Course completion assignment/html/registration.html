@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydraBottle | User Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="registration.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>HYDRABOTTLE</h1>
+    </header>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="productpage.html">Products</a>
+            <a href="registration.html">User Registration</a>
+        </nav>
+   
+    <main>
+        <section class="registration-form">
+            <h2>User Registration</h2>
+            <form id="RegistrationForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                <button type="submit">Register</button>
+                <p id="errorMsg"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Hydrabottle ensures confidentiality of all personal data in compliance with Kenya's Data Protection Act.</p>
+        <p> Cookies are used to identify returning users and not shared with third parties.</p>
+        <p>All our products are made with eco-friendly materials.</p>
+        <p>&copy; HydraBottle. All rights reserved.</p>
+    </footer>
